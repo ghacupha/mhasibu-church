@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "io.github.ghacupha"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "uaa",
+    "baseName": "mhasibuChurchUsers",
+    "packageName": "io.github.ghacupha",
+    "packageFolder": "io/github/ghacupha",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTAzOWVlYzNlZWExNWZiZTVjM2U4OTg2ZDJkNjllNzlmMGExYjUwMjJlYWZlOTIxYjQ0MWNhOTgxMzFmNTkxOTc1MzgwNDg1YTI1ODUyYjk1OWYyMTM0MzBkNTRjMTg0N2JhM2YyN2MxMjc4YTc2NmU0NzUyNjg5YzBmMTBlZmE=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true
+  }
+}

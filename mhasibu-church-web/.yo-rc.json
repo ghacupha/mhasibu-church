@@ -1,0 +1,23 @@
+{
+    "generator-jhipster": {
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "monolith",
+        "baseName": "mhasibuChurchWeb",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "authenticationType": "uaa",
+        "uaaBaseName": "mhasibuChurchUsers",
+        "cacheProvider": "no",
+        "databaseType": "sql",
+        "devDatabaseType": "sql",
+        "prodDatabaseType": "sql",
+        "testFrameworks": ["protractor"],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": false,
+        "skipServer": true
+    }
+}

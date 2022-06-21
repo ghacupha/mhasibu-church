@@ -1,0 +1,11 @@
+version: '2'
+services:
+    mhasibuchurchservice-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/mhasibuChurchService/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=mhasibuChurchService
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

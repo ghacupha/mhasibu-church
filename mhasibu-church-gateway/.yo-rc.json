@@ -1,0 +1,35 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "io.github.ghacupha"
+        },
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "gateway",
+        "baseName": "mhasibuChurchWeb",
+        "packageName": "io.github.ghacupha",
+        "packageFolder": "io/github/ghacupha",
+        "serverPort": "8158",
+        "authenticationType": "uaa",
+        "uaaBaseName": "mhasibuChurchUsers",
+        "cacheProvider": "hazelcast",
+        "enableHibernateCache": false,
+        "websocket": "spring-websocket",
+        "databaseType": "no",
+        "devDatabaseType": "no",
+        "prodDatabaseType": "no",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["gatling", "cucumber", "protractor"],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": false
+    }
+}
